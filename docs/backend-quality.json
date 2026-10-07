@@ -1,0 +1,1122 @@
+[
+  {
+    "file": "app/groups_api.py",
+    "function": "require_group",
+    "line": 7,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/groups_api.py",
+    "function": "validate_group",
+    "line": 15,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/groups_api.py",
+    "function": "groups",
+    "line": 22,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/groups_api.py",
+    "function": "create",
+    "line": 28,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/groups_api.py",
+    "function": "update",
+    "line": 34,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/groups_api.py",
+    "function": "delete",
+    "line": 40,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/groups_api.py",
+    "function": "assign",
+    "line": 47,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/groups_api.py",
+    "function": "run_group",
+    "line": 56,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "now",
+    "line": 5,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "__init__",
+    "line": 9,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "all",
+    "line": 24,
+    "complexity": 5,
+    "coverage": 1.0,
+    "crap": 5.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "get",
+    "line": 28,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "create",
+    "line": 32,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "save",
+    "line": 38,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "recover",
+    "line": 44,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "recover_run",
+    "line": 52,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "next",
+    "line": 62,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "close",
+    "line": 66,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "save_workspace",
+    "line": 69,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "workspaces",
+    "line": 74,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "workspace",
+    "line": 78,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "save_run",
+    "line": 81,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "run",
+    "line": 88,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "runs",
+    "line": 93,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "event",
+    "line": 97,
+    "complexity": 3,
+    "coverage": 0.833,
+    "crap": 3.042
+  },
+  {
+    "file": "app/store.py",
+    "function": "events",
+    "line": 105,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "enqueue",
+    "line": 115,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "groups",
+    "line": 120,
+    "complexity": 5,
+    "coverage": 1.0,
+    "crap": 5.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "group",
+    "line": 125,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "save_group",
+    "line": 128,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "delete_group",
+    "line": 133,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "enqueue_group",
+    "line": 141,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "project",
+    "line": 149,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "save_project",
+    "line": 154,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "projects",
+    "line": 159,
+    "complexity": 5,
+    "coverage": 1.0,
+    "crap": 5.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "managed_project",
+    "line": 164,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "save_managed_project",
+    "line": 167,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "set_ticket_deleted",
+    "line": 172,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/store.py",
+    "function": "delete_tickets",
+    "line": 176,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/runner.py",
+    "function": "git_operation",
+    "line": 10,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/runner.py",
+    "function": "__init__",
+    "line": 24,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/runner.py",
+    "function": "loop",
+    "line": 31,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/runner.py",
+    "function": "dispatch",
+    "line": 38,
+    "complexity": 3,
+    "coverage": 0.889,
+    "crap": 3.012
+  },
+  {
+    "file": "app/runner.py",
+    "function": "execute",
+    "line": 49,
+    "complexity": 6,
+    "coverage": 0.893,
+    "crap": 6.044
+  },
+  {
+    "file": "app/runner.py",
+    "function": "failed",
+    "line": 78,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/runner.py",
+    "function": "partial_diff",
+    "line": 84,
+    "complexity": 3,
+    "coverage": 0.714,
+    "crap": 3.21
+  },
+  {
+    "file": "app/runner.py",
+    "function": "prepare",
+    "line": 92,
+    "complexity": 2,
+    "coverage": 0.9,
+    "crap": 2.004
+  },
+  {
+    "file": "app/runner.py",
+    "function": "perform",
+    "line": 103,
+    "complexity": 6,
+    "coverage": 1.0,
+    "crap": 6.0
+  },
+  {
+    "file": "app/runner.py",
+    "function": "emit",
+    "line": 110,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/runner.py",
+    "function": "test",
+    "line": 120,
+    "complexity": 4,
+    "coverage": 1.0,
+    "crap": 4.0
+  },
+  {
+    "file": "app/runner.py",
+    "function": "cancel",
+    "line": 140,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/models.py",
+    "function": "validate_image",
+    "line": 31,
+    "complexity": 5,
+    "coverage": 1.0,
+    "crap": 5.0
+  },
+  {
+    "file": "app/models.py",
+    "function": "nonblank",
+    "line": 19,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/models.py",
+    "function": "valid_images",
+    "line": 26,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/models.py",
+    "function": "nonblank",
+    "line": 115,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/models.py",
+    "function": "valid_screenshot",
+    "line": 135,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/models.py",
+    "function": "nonblank",
+    "line": 142,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/models.py",
+    "function": "trimmed",
+    "line": 149,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/agents.py",
+    "function": "run",
+    "line": 6,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "app/agents.py",
+    "function": "__init__",
+    "line": 9,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/agents.py",
+    "function": "run",
+    "line": 12,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "delete_tickets",
+    "line": 15,
+    "complexity": 4,
+    "coverage": 1.0,
+    "crap": 4.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "require_project",
+    "line": 28,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "require_idle",
+    "line": 35,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "projects",
+    "line": 41,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "create",
+    "line": 46,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "get",
+    "line": 51,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "update",
+    "line": 56,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "delete",
+    "line": 63,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "restore",
+    "line": 72,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "delete_ticket",
+    "line": 80,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/projects_api.py",
+    "function": "restore_ticket",
+    "line": 90,
+    "complexity": 2,
+    "coverage": 0.875,
+    "crap": 2.008
+  },
+  {
+    "file": "app/settings.py",
+    "function": "load_env",
+    "line": 36,
+    "complexity": 7,
+    "coverage": 1.0,
+    "crap": 7.0
+  },
+  {
+    "file": "app/settings.py",
+    "function": "from_env",
+    "line": 19,
+    "complexity": 7,
+    "coverage": 1.0,
+    "crap": 7.0
+  },
+  {
+    "file": "app/settings.py",
+    "function": "providers",
+    "line": 29,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/process.py",
+    "function": "stop",
+    "line": 8,
+    "complexity": 3,
+    "coverage": 0.667,
+    "crap": 3.333
+  },
+  {
+    "file": "app/process.py",
+    "function": "signal_group",
+    "line": 19,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/process.py",
+    "function": "pump",
+    "line": 26,
+    "complexity": 3,
+    "coverage": 0.833,
+    "crap": 3.042
+  },
+  {
+    "file": "app/process.py",
+    "function": "feed",
+    "line": 34,
+    "complexity": 2,
+    "coverage": 0.714,
+    "crap": 2.093
+  },
+  {
+    "file": "app/process.py",
+    "function": "run_process",
+    "line": 44,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "ticket_for",
+    "line": 11,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "config",
+    "line": 17,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "workspaces",
+    "line": 24,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "register",
+    "line": 29,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "history",
+    "line": 38,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "activity",
+    "line": 44,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "cancel",
+    "line": 50,
+    "complexity": 2,
+    "coverage": 0.8,
+    "crap": 2.032
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "retry",
+    "line": 58,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "cursor_for",
+    "line": 65,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "event_stream",
+    "line": 70,
+    "complexity": 3,
+    "coverage": 0.875,
+    "crap": 3.018
+  },
+  {
+    "file": "app/execution_api.py",
+    "function": "events",
+    "line": 81,
+    "complexity": 1,
+    "coverage": 0.5,
+    "crap": 1.125
+  },
+  {
+    "file": "app/main.py",
+    "function": "require_ticket",
+    "line": 13,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "require_editable",
+    "line": 21,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "seed",
+    "line": 25,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "create_app",
+    "line": 36,
+    "complexity": 1,
+    "coverage": 0.987,
+    "crap": 1.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "lifespan",
+    "line": 38,
+    "complexity": 4,
+    "coverage": 0.929,
+    "crap": 4.006
+  },
+  {
+    "file": "app/main.py",
+    "function": "local_origin",
+    "line": 62,
+    "complexity": 4,
+    "coverage": 1.0,
+    "crap": 4.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "health",
+    "line": 71,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "project",
+    "line": 75,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "update_project",
+    "line": 81,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "tickets",
+    "line": 87,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "create",
+    "line": 93,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "get",
+    "line": 101,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "update",
+    "line": 105,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/main.py",
+    "function": "run",
+    "line": 119,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/repository.py",
+    "function": "git",
+    "line": 11,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/repository.py",
+    "function": "resolve_workspace",
+    "line": 19,
+    "complexity": 4,
+    "coverage": 0.909,
+    "crap": 4.012
+  },
+  {
+    "file": "app/repository.py",
+    "function": "relative_directory",
+    "line": 32,
+    "complexity": 4,
+    "coverage": 0.7,
+    "crap": 4.432
+  },
+  {
+    "file": "app/repository.py",
+    "function": "prepare_worktree",
+    "line": 44,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/repository.py",
+    "function": "collect_diff",
+    "line": 51,
+    "complexity": 4,
+    "coverage": 0.875,
+    "crap": 4.031
+  },
+  {
+    "file": "app/repository.py",
+    "function": "file_diff",
+    "line": 61,
+    "complexity": 2,
+    "coverage": 0.857,
+    "crap": 2.012
+  },
+  {
+    "file": "app/repository.py",
+    "function": "number",
+    "line": 70,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/runs.py",
+    "function": "require_run",
+    "line": 9,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/runs.py",
+    "function": "validate_target",
+    "line": 16,
+    "complexity": 5,
+    "coverage": 0.833,
+    "crap": 5.116
+  },
+  {
+    "file": "app/runs.py",
+    "function": "build_run",
+    "line": 30,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/runs.py",
+    "function": "mark_queued",
+    "line": 42,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/runs.py",
+    "function": "queue_run",
+    "line": 51,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/runs.py",
+    "function": "finish_run",
+    "line": 60,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/project_migration.py",
+    "function": "migrate_schema",
+    "line": 9,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/project_migration.py",
+    "function": "migrate_project",
+    "line": 17,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/group_runs.py",
+    "function": "group_tickets",
+    "line": 7,
+    "complexity": 8,
+    "coverage": 1.0,
+    "crap": 8.0
+  },
+  {
+    "file": "app/group_runs.py",
+    "function": "checked_run",
+    "line": 17,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/group_runs.py",
+    "function": "require_tests",
+    "line": 24,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/group_runs.py",
+    "function": "queue_group",
+    "line": 29,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/group_runs.py",
+    "function": "passed",
+    "line": 44,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/group_runs.py",
+    "function": "blocked_reason",
+    "line": 50,
+    "complexity": 4,
+    "coverage": 1.0,
+    "crap": 4.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "prompt_for",
+    "line": 13,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "child_environment",
+    "line": 20,
+    "complexity": 5,
+    "coverage": 1.0,
+    "crap": 5.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "redact",
+    "line": 32,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "write_images",
+    "line": 38,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "codex_command",
+    "line": 51,
+    "complexity": 2,
+    "coverage": 1.0,
+    "crap": 2.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "claude_command",
+    "line": 59,
+    "complexity": 3,
+    "coverage": 1.0,
+    "crap": 3.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "claude_image",
+    "line": 72,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "__call__",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "__init__",
+    "line": 78,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "__call__",
+    "line": 85,
+    "complexity": 5,
+    "coverage": 1.0,
+    "crap": 5.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "consume",
+    "line": 88,
+    "complexity": 1,
+    "coverage": 1.0,
+    "crap": 1.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "consume",
+    "line": 98,
+    "complexity": 5,
+    "coverage": 1.0,
+    "crap": 5.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "codex_event",
+    "line": 111,
+    "complexity": 4,
+    "coverage": 1.0,
+    "crap": 4.0
+  },
+  {
+    "file": "app/adapters.py",
+    "function": "claude_event",
+    "line": 123,
+    "complexity": 7,
+    "coverage": 1.0,
+    "crap": 7.0
+  }
+]

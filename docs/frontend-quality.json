@@ -1,0 +1,1642 @@
+[
+  {
+    "file": "src/App.vue",
+    "function": "pickTicket",
+    "line": 23,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/App.vue",
+    "function": "newTicket",
+    "line": 24,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/App.vue",
+    "function": "deleteSelection",
+    "line": 25,
+    "complexity": 2,
+    "coverage": 0,
+    "crap": 6
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 26,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 26,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 27,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 27,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 27,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "saveProject",
+    "line": 30,
+    "complexity": 2,
+    "coverage": 0,
+    "crap": 6
+  },
+  {
+    "file": "src/App.vue",
+    "function": "manageSave",
+    "line": 31,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/App.vue",
+    "function": "hasUnsavedTicket",
+    "line": 32,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/App.vue",
+    "function": "openProjects",
+    "line": 33,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/App.vue",
+    "function": "discardAndManage",
+    "line": 34,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/App.vue",
+    "function": "selectProject",
+    "line": 35,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Async arrow function",
+    "line": 36,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Async arrow function",
+    "line": 37,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/App.vue",
+    "function": "restoreTicket",
+    "line": 38,
+    "complexity": 2,
+    "coverage": 0,
+    "crap": 6
+  },
+  {
+    "file": "src/App.vue",
+    "function": "openGroup",
+    "line": 40,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "saveGroup",
+    "line": 41,
+    "complexity": 2,
+    "coverage": 0,
+    "crap": 6
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Async arrow function",
+    "line": 43,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 44,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 44,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 45,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 45,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 47,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 48,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 49,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 49,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Async arrow function",
+    "line": 50,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/App.vue",
+    "function": "Arrow function",
+    "line": 51,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "scope",
+    "line": 2,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/api.ts",
+    "function": "request",
+    "line": 3,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/api.ts",
+    "function": "errorMessage",
+    "line": 8,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Arrow function",
+    "line": 9,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'projects'",
+    "line": 14,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'createProject'",
+    "line": 15,
+    "complexity": 1,
+    "coverage": 0,
+    "crap": 2
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'deleteProject'",
+    "line": 16,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'restoreProject'",
+    "line": 17,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'updateProject'",
+    "line": 18,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'project'",
+    "line": 19,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'saveProject'",
+    "line": 20,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'deleteTicket'",
+    "line": 21,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'deleteTickets'",
+    "line": 22,
+    "complexity": 1,
+    "coverage": 0,
+    "crap": 2
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'restoreTicket'",
+    "line": 23,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'deletedTickets'",
+    "line": 24,
+    "complexity": 1,
+    "coverage": 0,
+    "crap": 2
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'runGroup'",
+    "line": 25,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'groups'",
+    "line": 26,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'saveGroup'",
+    "line": 27,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'deleteGroup'",
+    "line": 28,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'assignGroup'",
+    "line": 29,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'list'",
+    "line": 30,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'create'",
+    "line": 31,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'save'",
+    "line": 32,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'config'",
+    "line": 33,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'workspaces'",
+    "line": 34,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'register'",
+    "line": 35,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'history'",
+    "line": 36,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'events'",
+    "line": 37,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'cancel'",
+    "line": 38,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'retry'",
+    "line": 39,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/api.ts",
+    "function": "Method 'run'",
+    "line": 40,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/domain.ts",
+    "function": "validateDraft",
+    "line": 2,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/domain.ts",
+    "function": "visibleTickets",
+    "line": 7,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/domain.ts",
+    "function": "Arrow function",
+    "line": 8,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/domain.ts",
+    "function": "matchesQuery",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/domain.ts",
+    "function": "matchesStatus",
+    "line": 13,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/domain.ts",
+    "function": "diffClass",
+    "line": 18,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/domain.ts",
+    "function": "imageAllowed",
+    "line": 24,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/domain.ts",
+    "function": "emptyDraft",
+    "line": 27,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/execution.ts",
+    "function": "useExecution",
+    "line": 5,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/execution.ts",
+    "function": "load",
+    "line": 9,
+    "complexity": 6,
+    "coverage": 1,
+    "crap": 6
+  },
+  {
+    "file": "src/execution.ts",
+    "function": "register",
+    "line": 14,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/execution.ts",
+    "function": "Arrow function",
+    "line": 16,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/execution.ts",
+    "function": "history",
+    "line": 20,
+    "complexity": 8,
+    "coverage": 1,
+    "crap": 8
+  },
+  {
+    "file": "src/execution.ts",
+    "function": "message",
+    "line": 27,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/execution.ts",
+    "function": "start",
+    "line": 31,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/execution.ts",
+    "function": "Arrow function",
+    "line": 37,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/execution.ts",
+    "function": "Arrow function",
+    "line": 38,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/execution.ts",
+    "function": "stop",
+    "line": 41,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/groupColors.ts",
+    "function": "groupHex",
+    "line": 6,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/groupColors.ts",
+    "function": "Arrow function",
+    "line": 7,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/groupColors.ts",
+    "function": "linearChannel",
+    "line": 9,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/groupColors.ts",
+    "function": "groupAppearance",
+    "line": 13,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/groupColors.ts",
+    "function": "Arrow function",
+    "line": 15,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/project.ts",
+    "function": "useProject",
+    "line": 4,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/project.ts",
+    "function": "load",
+    "line": 6,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/project.ts",
+    "function": "save",
+    "line": 11,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "useProjects",
+    "line": 4,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "Arrow function",
+    "line": 7,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "Arrow function",
+    "line": 7,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "select",
+    "line": 8,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "action",
+    "line": 9,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "load",
+    "line": 14,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "Async arrow function",
+    "line": 15,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "Arrow function",
+    "line": 15,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "replace",
+    "line": 17,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "replace",
+    "line": 17,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "create",
+    "line": 18,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "create",
+    "line": 18,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "update",
+    "line": 19,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "update",
+    "line": 19,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "remove",
+    "line": 20,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "Async arrow function",
+    "line": 21,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "Arrow function",
+    "line": 21,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "restore",
+    "line": 23,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "restore",
+    "line": 23,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "loadTrash",
+    "line": 24,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "Async arrow function",
+    "line": 26,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "restoreTicket",
+    "line": 28,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "restoreTicket",
+    "line": 28,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "restoreTicket",
+    "line": 28,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "readSelection",
+    "line": 32,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/projects.ts",
+    "function": "saveSelection",
+    "line": 33,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/ticketSelection.ts",
+    "function": "useTicketSelection",
+    "line": 3,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/ticketSelection.ts",
+    "function": "clear",
+    "line": 5,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/ticketSelection.ts",
+    "function": "toggle",
+    "line": 6,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/ticketSelection.ts",
+    "function": "toggle",
+    "line": 6,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/ticketSelection.ts",
+    "function": "range",
+    "line": 7,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/ticketSelection.ts",
+    "function": "click",
+    "line": 13,
+    "complexity": 5,
+    "coverage": 1,
+    "crap": 5
+  },
+  {
+    "file": "src/ticketSelection.ts",
+    "function": "retain",
+    "line": 18,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/ticketSelection.ts",
+    "function": "retain",
+    "line": 18,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "useWorkspace",
+    "line": 5,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Arrow function",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Arrow function",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Arrow function",
+    "line": 11,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Arrow function",
+    "line": 12,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "select",
+    "line": 13,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "newTicket",
+    "line": 14,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "refresh",
+    "line": 15,
+    "complexity": 6,
+    "coverage": 1,
+    "crap": 6
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "currentRefresh",
+    "line": 22,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "reset",
+    "line": 23,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "removeTicket",
+    "line": 24,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Async arrow function",
+    "line": 25,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "removeTickets",
+    "line": 27,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Async arrow function",
+    "line": 28,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "action",
+    "line": 34,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "persist",
+    "line": 39,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "save",
+    "line": 45,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "run",
+    "line": 46,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Async arrow function",
+    "line": 47,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "cancel",
+    "line": 49,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "cancel",
+    "line": 49,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "retry",
+    "line": 50,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "retry",
+    "line": 50,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "drop",
+    "line": 51,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Arrow function",
+    "line": 52,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Async arrow function",
+    "line": 54,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Arrow function",
+    "line": 54,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "runGroup",
+    "line": 56,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Async arrow function",
+    "line": 57,
+    "complexity": 7,
+    "coverage": 1,
+    "crap": 7
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "saveGroup",
+    "line": 64,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Async arrow function",
+    "line": 65,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "deleteGroup",
+    "line": 67,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Async arrow function",
+    "line": 68,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "assignGroup",
+    "line": 70,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Async arrow function",
+    "line": 71,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "moveToGroup",
+    "line": 73,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Arrow function",
+    "line": 74,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Async arrow function",
+    "line": 75,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "attach",
+    "line": 81,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "paste",
+    "line": 86,
+    "complexity": 6,
+    "coverage": 1,
+    "crap": 6
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "toDraft",
+    "line": 95,
+    "complexity": 6,
+    "coverage": 1,
+    "crap": 6
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "readImage",
+    "line": 99,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Arrow function",
+    "line": 100,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/workspace.ts",
+    "function": "Arrow function",
+    "line": 100,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "Method 'groups'",
+    "line": 8,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "laneTickets",
+    "line": 12,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "laneTickets",
+    "line": 12,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "laneGroups",
+    "line": 13,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "laneGroups",
+    "line": 13,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "laneGroups",
+    "line": 13,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "drop",
+    "line": 14,
+    "complexity": 6,
+    "coverage": 1,
+    "crap": 6
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "Arrow function",
+    "line": 17,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "pick",
+    "line": 21,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "Arrow function",
+    "line": 23,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/Board.vue",
+    "function": "assign",
+    "line": 26,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/BulkTicketActions.vue",
+    "function": "Arrow function",
+    "line": 9,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/BulkTicketActions.vue",
+    "function": "Arrow function",
+    "line": 9,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/BulkTicketActions.vue",
+    "function": "Arrow function",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/GroupDialog.vue",
+    "function": "Arrow function",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/GroupDialog.vue",
+    "function": "Arrow function",
+    "line": 10,
+    "complexity": 6,
+    "coverage": 1,
+    "crap": 6
+  },
+  {
+    "file": "src/components/GroupDialog.vue",
+    "function": "chooseCustom",
+    "line": 11,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/GroupDialog.vue",
+    "function": "save",
+    "line": 12,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/components/ProjectDialog.vue",
+    "function": "Arrow function",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/ProjectDialog.vue",
+    "function": "Arrow function",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/ProjectDialog.vue",
+    "function": "save",
+    "line": 11,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/components/ProjectDialog.vue",
+    "function": "image",
+    "line": 12,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/components/ProjectDialog.vue",
+    "function": "Arrow function",
+    "line": 17,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/ProjectDialog.vue",
+    "function": "Arrow function",
+    "line": 17,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/ProjectDialog.vue",
+    "function": "Arrow function",
+    "line": 17,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/ProjectDialog.vue",
+    "function": "upload",
+    "line": 21,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/components/ProjectDialog.vue",
+    "function": "paste",
+    "line": 22,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "src/components/ProjectDialog.vue",
+    "function": "paste",
+    "line": 22,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/ProjectManager.vue",
+    "function": "edit",
+    "line": 9,
+    "complexity": 9,
+    "coverage": 1,
+    "crap": 9
+  },
+  {
+    "file": "src/components/ProjectManager.vue",
+    "function": "save",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/ProjectManager.vue",
+    "function": "Method 'saved'",
+    "line": 11,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/RunHistory.vue",
+    "function": "inspect",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/RunHistory.vue",
+    "function": "inspect",
+    "line": 10,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/StatusFilter.vue",
+    "function": "Arrow function",
+    "line": 8,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/components/StatusFilter.vue",
+    "function": "Arrow function",
+    "line": 8,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/TaskPane.vue",
+    "function": "Method 'groups'",
+    "line": 8,
+    "complexity": 1,
+    "coverage": 0,
+    "crap": 2
+  },
+  {
+    "file": "src/components/TaskPane.vue",
+    "function": "removeImage",
+    "line": 11,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "src/components/TicketCard.vue",
+    "function": "drag",
+    "line": 7,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "src/components/TicketGroup.vue",
+    "function": "drop",
+    "line": 11,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "src/components/TicketGroup.vue",
+    "function": "closeMenu",
+    "line": 12,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  }
+]

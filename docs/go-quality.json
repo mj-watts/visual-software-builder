@@ -1,0 +1,1234 @@
+[
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "promptFor",
+    "line": 13,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "redact",
+    "line": 16,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "childEnvironment",
+    "line": 24,
+    "complexity": 6,
+    "coverage": 0.9166666666666666,
+    "crap": 6.020833333333333
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "writeImages",
+    "line": 43,
+    "complexity": 5,
+    "coverage": 0.8,
+    "crap": 5.2
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "codexCommand",
+    "line": 64,
+    "complexity": 3,
+    "coverage": 0.875,
+    "crap": 3.017578125
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "claudeCommand",
+    "line": 76,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "cliAgent",
+    "line": 98,
+    "complexity": 8,
+    "coverage": 0.9047619047619048,
+    "crap": 8.055285606306015
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "consumeEvent",
+    "line": 129,
+    "complexity": 6,
+    "coverage": 0.9285714285714286,
+    "crap": 6.013119533527696
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "str",
+    "line": 151,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "obj",
+    "line": 152,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "codexEvents",
+    "line": 153,
+    "complexity": 5,
+    "coverage": 1,
+    "crap": 5
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "claudeEvents",
+    "line": 168,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "internal/studio/adapters.go",
+    "function": "textContent",
+    "line": 181,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "New",
+    "line": 29,
+    "complexity": 3,
+    "coverage": 0.7,
+    "crap": 3.243
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "Close",
+    "line": 43,
+    "complexity": 3,
+    "coverage": 0.8888888888888888,
+    "crap": 3.0123456790123457
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "route",
+    "line": 59,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "writeJSON",
+    "line": 71,
+    "complexity": 2,
+    "coverage": 0.75,
+    "crap": 2.0625
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "writeError",
+    "line": 78,
+    "complexity": 2,
+    "coverage": 0.875,
+    "crap": 2.0078125
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "decode",
+    "line": 90,
+    "complexity": 6,
+    "coverage": 0.7857142857142857,
+    "crap": 6.354227405247814
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "rejectNullFields",
+    "line": 111,
+    "complexity": 5,
+    "coverage": 0.9090909090909091,
+    "crap": 5.018782870022539
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "Handler",
+    "line": 129,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "localHost",
+    "line": 142,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "allowedOrigin",
+    "line": 149,
+    "complexity": 5,
+    "coverage": 1,
+    "crap": 5
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "allowedPort",
+    "line": 152,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "projectID",
+    "line": 160,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "queryBool",
+    "line": 166,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "project",
+    "line": 177,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "ticket",
+    "line": 187,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "group",
+    "line": 195,
+    "complexity": 3,
+    "coverage": 0.8571428571428571,
+    "crap": 3.0262390670553936
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "validateGroup",
+    "line": 206,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "internal/studio/app.go",
+    "function": "routes",
+    "line": 219,
+    "complexity": 3,
+    "coverage": 0.9375,
+    "crap": 3.002197265625
+  },
+  {
+    "file": "internal/studio/config.go",
+    "function": "defaults",
+    "line": 24,
+    "complexity": 8,
+    "coverage": 1,
+    "crap": 8
+  },
+  {
+    "file": "internal/studio/config.go",
+    "function": "ConfigFromEnv",
+    "line": 48,
+    "complexity": 6,
+    "coverage": 1,
+    "crap": 6
+  },
+  {
+    "file": "internal/studio/config.go",
+    "function": "enabled",
+    "line": 70,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "internal/studio/config.go",
+    "function": "providers",
+    "line": 71,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/config.go",
+    "function": "LoadEnv",
+    "line": 84,
+    "complexity": 4,
+    "coverage": 0.9,
+    "crap": 4.016
+  },
+  {
+    "file": "internal/studio/config.go",
+    "function": "loadEnvLine",
+    "line": 99,
+    "complexity": 5,
+    "coverage": 1,
+    "crap": 5
+  },
+  {
+    "file": "internal/studio/config.go",
+    "function": "validEnvKey",
+    "line": 115,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/docs.go",
+    "function": "docsRoutes",
+    "line": 13,
+    "complexity": 3,
+    "coverage": 0.75,
+    "crap": 3.140625
+  },
+  {
+    "file": "internal/studio/events.go",
+    "function": "eventCursor",
+    "line": 11,
+    "complexity": 5,
+    "coverage": 1,
+    "crap": 5
+  },
+  {
+    "file": "internal/studio/events.go",
+    "function": "publishEvents",
+    "line": 25,
+    "complexity": 5,
+    "coverage": 0.7692307692307693,
+    "crap": 5.307237141556668
+  },
+  {
+    "file": "internal/studio/events.go",
+    "function": "eventStream",
+    "line": 44,
+    "complexity": 8,
+    "coverage": 0.782608695652174,
+    "crap": 8.657516232431988
+  },
+  {
+    "file": "internal/studio/groups.go",
+    "function": "groupRoutes",
+    "line": 5,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/groups.go",
+    "function": "listGroups",
+    "line": 13,
+    "complexity": 5,
+    "coverage": 0.9090909090909091,
+    "crap": 5.018782870022539
+  },
+  {
+    "file": "internal/studio/groups.go",
+    "function": "groupBody",
+    "line": 30,
+    "complexity": 2,
+    "coverage": 0.75,
+    "crap": 2.0625
+  },
+  {
+    "file": "internal/studio/groups.go",
+    "function": "createGroup",
+    "line": 37,
+    "complexity": 3,
+    "coverage": 0.8888888888888888,
+    "crap": 3.0123456790123457
+  },
+  {
+    "file": "internal/studio/groups.go",
+    "function": "updateGroup",
+    "line": 50,
+    "complexity": 3,
+    "coverage": 0.7777777777777778,
+    "crap": 3.0987654320987654
+  },
+  {
+    "file": "internal/studio/groups.go",
+    "function": "deleteGroup",
+    "line": 63,
+    "complexity": 2,
+    "coverage": 0.75,
+    "crap": 2.0625
+  },
+  {
+    "file": "internal/studio/groups.go",
+    "function": "assignGroup",
+    "line": 70,
+    "complexity": 5,
+    "coverage": 0.7857142857142857,
+    "crap": 5.2459912536443145
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "now",
+    "line": 93,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "newID",
+    "line": 94,
+    "complexity": 2,
+    "coverage": 0.75,
+    "crap": 2.0625
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "defaultDraft",
+    "line": 101,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "textLength",
+    "line": 104,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "validateText",
+    "line": 108,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "validateImage",
+    "line": 114,
+    "complexity": 7,
+    "coverage": 1,
+    "crap": 7
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "validate",
+    "line": 128,
+    "complexity": 3,
+    "coverage": 0.8,
+    "crap": 3.072
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "validateOptions",
+    "line": 137,
+    "complexity": 7,
+    "coverage": 0.9166666666666666,
+    "crap": 7.028356481481482
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "validate",
+    "line": 156,
+    "complexity": 5,
+    "coverage": 1,
+    "crap": 5
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "validate",
+    "line": 172,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "validColor",
+    "line": 182,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "idle",
+    "line": 192,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "editable",
+    "line": 198,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "Error",
+    "line": 210,
+    "complexity": 1,
+    "coverage": 0,
+    "crap": 2
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "problem",
+    "line": 211,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/models.go",
+    "function": "missing",
+    "line": 212,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/process.go",
+    "function": "runProcess",
+    "line": 19,
+    "complexity": 6,
+    "coverage": 0.9210526315789473,
+    "crap": 6.0177139524712056
+  },
+  {
+    "file": "internal/studio/process.go",
+    "function": "processResult",
+    "line": 64,
+    "complexity": 5,
+    "coverage": 1,
+    "crap": 5
+  },
+  {
+    "file": "internal/studio/process.go",
+    "function": "killAfterCancel",
+    "line": 80,
+    "complexity": 5,
+    "coverage": 1,
+    "crap": 5
+  },
+  {
+    "file": "internal/studio/process.go",
+    "function": "pump",
+    "line": 95,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "internal/studio/projects.go",
+    "function": "projectRoutes",
+    "line": 5,
+    "complexity": 2,
+    "coverage": 0.875,
+    "crap": 2.0078125
+  },
+  {
+    "file": "internal/studio/projects.go",
+    "function": "listProjects",
+    "line": 22,
+    "complexity": 5,
+    "coverage": 1,
+    "crap": 5
+  },
+  {
+    "file": "internal/studio/projects.go",
+    "function": "projectBody",
+    "line": 36,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "internal/studio/projects.go",
+    "function": "createProject",
+    "line": 43,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  },
+  {
+    "file": "internal/studio/projects.go",
+    "function": "updateProject",
+    "line": 51,
+    "complexity": 3,
+    "coverage": 0.75,
+    "crap": 3.140625
+  },
+  {
+    "file": "internal/studio/projects.go",
+    "function": "deleteProject",
+    "line": 63,
+    "complexity": 5,
+    "coverage": 0.8181818181818182,
+    "crap": 5.150262960180315
+  },
+  {
+    "file": "internal/studio/projects.go",
+    "function": "restoreProject",
+    "line": 80,
+    "complexity": 2,
+    "coverage": 0.8,
+    "crap": 2.032
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "runRoutes",
+    "line": 11,
+    "complexity": 5,
+    "coverage": 0.8947368421052632,
+    "crap": 5.029158769499927
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "run",
+    "line": 39,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "buildRun",
+    "line": 42,
+    "complexity": 6,
+    "coverage": 0.8947368421052632,
+    "crap": 6.041988628079895
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "markQueued",
+    "line": 68,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "queue",
+    "line": 76,
+    "complexity": 3,
+    "coverage": 0.8571428571428571,
+    "crap": 3.0262390670553936
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "retry",
+    "line": 87,
+    "complexity": 4,
+    "coverage": 0.8333333333333334,
+    "crap": 4.074074074074074
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "cancel",
+    "line": 97,
+    "complexity": 7,
+    "coverage": 0.6153846153846154,
+    "crap": 9.787892580791988
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "queueGroup",
+    "line": 117,
+    "complexity": 8,
+    "coverage": 0.8636363636363636,
+    "crap": 8.162283996994741
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "groupCandidates",
+    "line": 148,
+    "complexity": 8,
+    "coverage": 0.9285714285714286,
+    "crap": 8.02332361516035
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "groupSnapshots",
+    "line": 170,
+    "complexity": 6,
+    "coverage": 0.8888888888888888,
+    "crap": 6.049382716049383
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "finish",
+    "line": 184,
+    "complexity": 5,
+    "coverage": 0.8125,
+    "crap": 5.164794921875
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "blocked",
+    "line": 206,
+    "complexity": 5,
+    "coverage": 0.8333333333333334,
+    "crap": 5.1157407407407405
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "recover",
+    "line": 216,
+    "complexity": 7,
+    "coverage": 0.8235294117647058,
+    "crap": 7.26928556889884
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "next",
+    "line": 241,
+    "complexity": 4,
+    "coverage": 0.8888888888888888,
+    "crap": 4.021947873799726
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "Run",
+    "line": 254,
+    "complexity": 5,
+    "coverage": 0.875,
+    "crap": 5.048828125
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "dispatch",
+    "line": 277,
+    "complexity": 3,
+    "coverage": 0.7777777777777778,
+    "crap": 3.0987654320987654
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "logError",
+    "line": 290,
+    "complexity": 2,
+    "coverage": 0.5,
+    "crap": 2.5
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "queuedBefore",
+    "line": 296,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "cancelHTTP",
+    "line": 304,
+    "complexity": 7,
+    "coverage": 0.8076923076923077,
+    "crap": 7.348486572598999
+  },
+  {
+    "file": "internal/studio/queue.go",
+    "function": "cancelTarget",
+    "line": 340,
+    "complexity": 4,
+    "coverage": 0.8333333333333334,
+    "crap": 4.074074074074074
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "trim",
+    "line": 17,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "git",
+    "line": 18,
+    "complexity": 2,
+    "coverage": 0.8571428571428571,
+    "crap": 2.011661807580175
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "canonical",
+    "line": 28,
+    "complexity": 4,
+    "coverage": 0.4444444444444444,
+    "crap": 6.743484224965707
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "within",
+    "line": 42,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "allowedRoot",
+    "line": 46,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "relativeDirectory",
+    "line": 55,
+    "complexity": 7,
+    "coverage": 0.8125,
+    "crap": 7.322998046875
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "resolveWorkspace",
+    "line": 79,
+    "complexity": 8,
+    "coverage": 0.7619047619047619,
+    "crap": 8.863837598531477
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "registerWorkspace",
+    "line": 109,
+    "complexity": 4,
+    "coverage": 0.8888888888888888,
+    "crap": 4.021947873799726
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "validateWorkspace",
+    "line": 123,
+    "complexity": 5,
+    "coverage": 0.7142857142857143,
+    "crap": 5.5830903790087465
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "prepareWorktree",
+    "line": 135,
+    "complexity": 2,
+    "coverage": 0.75,
+    "crap": 2.0625
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "collectDiff",
+    "line": 142,
+    "complexity": 7,
+    "coverage": 0.7333333333333333,
+    "crap": 7.929185185185186
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "readDiffEntries",
+    "line": 165,
+    "complexity": 4,
+    "coverage": 0.8888888888888888,
+    "crap": 4.021947873799726
+  },
+  {
+    "file": "internal/studio/repository.go",
+    "function": "fileDiff",
+    "line": 179,
+    "complexity": 4,
+    "coverage": 0.7272727272727273,
+    "crap": 4.324567993989482
+  },
+  {
+    "file": "internal/studio/seed.go",
+    "function": "Seed",
+    "line": 11,
+    "complexity": 8,
+    "coverage": 0.75,
+    "crap": 9
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "openStore",
+    "line": 17,
+    "complexity": 4,
+    "coverage": 0.6363636363636364,
+    "crap": 4.769346356123216
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "migrate",
+    "line": 45,
+    "complexity": 6,
+    "coverage": 0.7,
+    "crap": 6.972
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "migrateProject",
+    "line": 62,
+    "complexity": 6,
+    "coverage": 0.7857142857142857,
+    "crap": 6.354227405247814
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "ImportDatabase",
+    "line": 85,
+    "complexity": 8,
+    "coverage": 0.7142857142857143,
+    "crap": 9.492711370262391
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "backupConnections",
+    "line": 114,
+    "complexity": 6,
+    "coverage": 0.7619047619047619,
+    "crap": 6.485908649173956
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "queryJSON",
+    "line": 144,
+    "complexity": 5,
+    "coverage": 0.7857142857142857,
+    "crap": 5.2459912536443145
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "oneJSON",
+    "line": 164,
+    "complexity": 3,
+    "coverage": 0.8888888888888888,
+    "crap": 3.0123456790123457
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "execJSON",
+    "line": 177,
+    "complexity": 2,
+    "coverage": 0.8,
+    "crap": 2.032
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "saveProject",
+    "line": 187,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "saveGroup",
+    "line": 190,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "saveWorkspace",
+    "line": 193,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "saveTicket",
+    "line": 196,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "saveRun",
+    "line": 199,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "tickets",
+    "line": 202,
+    "complexity": 4,
+    "coverage": 1,
+    "crap": 4
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "normalizeTicket",
+    "line": 213,
+    "complexity": 6,
+    "coverage": 1,
+    "crap": 6
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "ticket",
+    "line": 230,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "create",
+    "line": 235,
+    "complexity": 5,
+    "coverage": 0.7142857142857143,
+    "crap": 5.5830903790087465
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "setDeleted",
+    "line": 255,
+    "complexity": 4,
+    "coverage": 0.75,
+    "crap": 4.25
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "enqueue",
+    "line": 268,
+    "complexity": 5,
+    "coverage": 0.7,
+    "crap": 5.675
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "event",
+    "line": 284,
+    "complexity": 5,
+    "coverage": 0.7,
+    "crap": 5.675
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "events",
+    "line": 299,
+    "complexity": 4,
+    "coverage": 0.8181818181818182,
+    "crap": 4.096168294515402
+  },
+  {
+    "file": "internal/studio/store.go",
+    "function": "removeGroup",
+    "line": 315,
+    "complexity": 7,
+    "coverage": 0.6875,
+    "crap": 8.495361328125
+  },
+  {
+    "file": "internal/studio/tickets.go",
+    "function": "ticketRoutes",
+    "line": 8,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/tickets.go",
+    "function": "listTickets",
+    "line": 17,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/tickets.go",
+    "function": "createTicket",
+    "line": 28,
+    "complexity": 5,
+    "coverage": 0.9090909090909091,
+    "crap": 5.018782870022539
+  },
+  {
+    "file": "internal/studio/tickets.go",
+    "function": "updateTicket",
+    "line": 45,
+    "complexity": 6,
+    "coverage": 0.8,
+    "crap": 6.287999999999999
+  },
+  {
+    "file": "internal/studio/tickets.go",
+    "function": "patchDraft",
+    "line": 67,
+    "complexity": 8,
+    "coverage": 0.8,
+    "crap": 8.512
+  },
+  {
+    "file": "internal/studio/tickets.go",
+    "function": "deleteTicket",
+    "line": 90,
+    "complexity": 3,
+    "coverage": 0.6666666666666666,
+    "crap": 3.3333333333333335
+  },
+  {
+    "file": "internal/studio/tickets.go",
+    "function": "restoreTicket",
+    "line": 100,
+    "complexity": 3,
+    "coverage": 0.8333333333333334,
+    "crap": 3.0416666666666665
+  },
+  {
+    "file": "internal/studio/tickets.go",
+    "function": "bulkDelete",
+    "line": 110,
+    "complexity": 6,
+    "coverage": 0.9090909090909091,
+    "crap": 6.027047332832457
+  },
+  {
+    "file": "internal/studio/tickets.go",
+    "function": "validateDeletion",
+    "line": 130,
+    "complexity": 6,
+    "coverage": 0.9333333333333333,
+    "crap": 6.010666666666666
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "execute",
+    "line": 11,
+    "complexity": 4,
+    "coverage": 0.9310344827586207,
+    "crap": 4.005248267661651
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "begin",
+    "line": 40,
+    "complexity": 8,
+    "coverage": 0.7692307692307693,
+    "crap": 8.78652708238507
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "failureMessage",
+    "line": 74,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "partialDiff",
+    "line": 83,
+    "complexity": 3,
+    "coverage": 0.8333333333333334,
+    "crap": 3.0416666666666665
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "persist",
+    "line": 93,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "emit",
+    "line": 94,
+    "complexity": 1,
+    "coverage": 1,
+    "crap": 1
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "perform",
+    "line": 99,
+    "complexity": 9,
+    "coverage": 0.9473684210526315,
+    "crap": 9.011809301647471
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "prepare",
+    "line": 126,
+    "complexity": 6,
+    "coverage": 0.7333333333333333,
+    "crap": 6.682666666666667
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "test",
+    "line": 151,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "runTests",
+    "line": 161,
+    "complexity": 7,
+    "coverage": 0.7222222222222222,
+    "crap": 8.050240054869684
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "demo",
+    "line": 187,
+    "complexity": 3,
+    "coverage": 1,
+    "crap": 3
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "ensureRun",
+    "line": 200,
+    "complexity": 3,
+    "coverage": 0.8571428571428571,
+    "crap": 3.0262390670553936
+  },
+  {
+    "file": "internal/studio/worker.go",
+    "function": "endActive",
+    "line": 212,
+    "complexity": 2,
+    "coverage": 1,
+    "crap": 2
+  }
+]

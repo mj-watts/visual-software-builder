@@ -14,3 +14,6 @@ test-results/
 backend/coverage.json
 .env.*
 !.env.example
+
+backend-go/bin/
+backend-go/coverage.out

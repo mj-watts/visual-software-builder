@@ -2,19 +2,28 @@
 
 Build through a prompt board: create a ticket, paste images and move it into **Doing**. A FIFO worker executes one ticket at a time. Review responses, actual file diffs and previous attempts in the right-hand pane.
 
-Frontend: Vue 3, TypeScript, Vite, Reka UI and Lucide. Backend: FastAPI, OpenAPI, SQLite and supervised agent CLI processes. Keep the services separate and bind to localhost; this is a single-user local app.
+Frontend: Vue 3, TypeScript, Vite, Reka UI and Lucide. Default backend: Go (`net/http`), OpenAPI, SQLite and supervised agent CLI processes. The original Python/FastAPI backend remains in `backend/`. Keep the services separate and bind to localhost; this is a single-user local app.
 
 ## Run
 
-Prerequisites: Node 22.12+, Python 3.11+, Git and Google Chrome for UI tests.
+Prerequisites: Node 22.12+, Go 1.26+, a C compiler (for the SQLite driver), Git and Google Chrome for UI tests. Python 3.11+ is needed only for the original backend or Pytest repository tests.
 
-Backend:
+Go backend (default):
+
+```sh
+cd backend-go
+go run ./cmd/server -import ../backend/swimlane.sqlite3
+```
+
+The optional `-import` flag makes a consistent SQLite backup of the Python database **only when the Go database does not exist**. It preserves projects, screenshots, groups, tickets, deletion markers, run history and events. The source is opened read-only and never overwritten. Go uses `backend-go/swimlane.sqlite3`; Python keeps `backend/swimlane.sqlite3`. Subsequent changes are independent; there is no ongoing synchronisation. For a fresh Go installation with no Python database, omit `-import`.
+
+Original Python backend (still supported):
 
 ```sh
 cd backend
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.lock.txt
-.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000 --timeout-graceful-shutdown 5
+.venv/bin/python start.py
 ```
 
 Frontend, in another terminal:
@@ -25,21 +34,21 @@ npm ci
 npm run dev
 ```
 
-Open <http://127.0.0.1:5173>. OpenAPI: <http://127.0.0.1:8000/docs> and [schema snapshot](docs/openapi.json). Vite proxies `/api` to the backend. For a different backend port, set `SWIMLANE_API_URL` when starting Vite.
+Open <http://127.0.0.1:5173>. Go Swagger: <http://127.0.0.1:8080/docs> and [Go schema snapshot](docs/go-openapi.json). Python Swagger remains <http://127.0.0.1:8000/docs>. Vite proxies `/api` to the backend. Vite defaults to Go on port 8080. To use Python instead, start Vite with `SWIMLANE_API_URL=http://127.0.0.1:8000 npm run dev`.
 
 ## Enable real agents
 
 Demo tickets remain simulated. Codex and Claude tickets run real coding CLIs with **server-only API credentials**. This version does not import desktop subscription login sessions. Configure one provider to begin.
 
 1. Install a current Codex CLI supporting `exec --ignore-user-config --ignore-rules --json`, or Claude Code **2.1.248+** with `--bare --restricted`.
-2. Copy `backend/.env.example` to `backend/.env` and fill the chosen provider key and repository roots. The file is ignored by Git. Uvicorn does not load this file automatically; start it with the helper below.
+2. Copy `backend-go/.env.example` to `backend-go/.env` (or `backend/.env.example` to `backend/.env` for Python) and fill the chosen provider key and repository roots. The file is ignored by Git. Uvicorn does not load this file automatically; start it with the helper below.
 3. In **Repositories**, register a local Git repository root with at least one commit. Optionally set a test preset and relative test directory.
 4. Create a ticket, select the provider and repository, and choose read-only or allow edits. Enable repository tests only for trusted code.
 5. Run or drag the saved ticket to Doing. Review actual changes and run history when it finishes.
 
 ```sh
-cd backend
-.venv/bin/python start.py
+cd backend-go
+go run ./cmd/server
 ```
 
 Environment variables are also accepted directly. `CODEX_API_KEY` (or `OPENAI_API_KEY`) is used for Codex; `ANTHROPIC_API_KEY` for Claude. Readiness means a CLI and key are configured; authentication is verified only when the provider executes. No keys are sent to the frontend or stored in tickets. Restart the backend after changing environment configuration.
@@ -49,9 +58,9 @@ Configuration:
 | Variable | Default / purpose |
 | --- | --- |
 | `SWIMLANE_WORKSPACE_ROOTS` | This application directory; colon-separated absolute allowed repository roots |
-| `SWIMLANE_ARTIFACTS` | `backend/.swimlane`; retained worktrees and image attachments |
+| `SWIMLANE_ARTIFACTS` | `backend-go/.swimlane` for Go, `backend/.swimlane` for Python; retained worktrees and image attachments |
 | `SWIMLANE_RUN_TIMEOUT` | 600 seconds, maximum 3600; agent and test execution deadline |
-| `SWIMLANE_DB` | `swimlane.sqlite3` in the backend working directory |
+| `SWIMLANE_DB` | `swimlane.sqlite3` in the chosen backend working directory |
 
 Real calls use your provider account and may incur API charges. Repository text and pasted images are sent to the selected provider.
 
@@ -79,7 +88,19 @@ npm run quality
 npm run test:e2e
 ```
 
-Playwright uses **Google Chrome only**. It starts an isolated backend on 8001, a frontend on 5174 and a fresh temporary database, with provider credentials blanked. No paid calls occur. UI tests cover board workflows, images/diffs, cancel/retry/history and repository settings.
+Playwright uses **Google Chrome only**. It starts an isolated Go backend on 8081, a frontend on 5174 and a fresh temporary database, with provider credentials blanked. Set `SWIMLANE_E2E_BACKEND=python` to exercise the preserved Python service instead. No paid calls occur. UI tests cover board workflows, images/diffs, cancel/retry/history and repository settings.
+
+```sh
+cd backend-go
+go test -race -coverprofile=coverage.out ./internal/studio
+go run ./cmd/quality
+go vet ./...
+go build ./cmd/server
+```
+
+The Go suite uses temporary SQLite databases, real temporary Git repositories and fake Codex/Claude executables. Its CRAP report is [docs/go-quality.json](docs/go-quality.json); every API function must score under 10. The Go API embeds the matching categorised OpenAPI contract and serves `/docs` and `/openapi.json` without a Python service.
+
+Original Python checks:
 
 ```sh
 cd backend
@@ -91,7 +112,7 @@ Backend tests exercise real temporary Git worktrees, actual diffs and real super
 
 CRAP gates require every authored function to score **under 10**, combining cyclomatic complexity and executable-line coverage. Frontend: ESLint and Vitest V8. Backend: Radon and pytest-cov. Reports are in `docs/`; generate coverage before running quality gates. Template-generated Vue functions are covered but excluded from source complexity analysis.
 
-[Plan](docs/PLAN.md) · [Gherkin specification](docs/board.feature) · [Validation](docs/VALIDATION.md)
+[Plan](docs/PLAN.md) · [Gherkin specification](docs/board.feature) · [Backend interchangeability](docs/backends.feature) · [Validation](docs/VALIDATION.md)
 
 Provider references: [Codex noninteractive execution](https://learn.chatgpt.com/docs/non-interactive-mode), [Claude CLI and restricted mode](https://code.claude.com/docs/en/cli-reference), [Claude programmatic execution](https://code.claude.com/docs/en/headless).
 

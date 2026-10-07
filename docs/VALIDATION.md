@@ -1,4 +1,27 @@
-# Phase 2 validation
+# Go backend validation — 7 October 2026
+
+The frontend now defaults to the standalone Go backend on localhost:8080. The Python backend and its source remain unchanged. Vite's live `/api/health` proxy returned `backend: go`, and Go's categorised Swagger page was verified at `/docs`.
+
+| Check | Result |
+| --- | --- |
+| Go API/storage/worker/process/adapter tests with race detection | 22 passed |
+| Go API statement coverage | 86.0% |
+| Go API authored-function CRAP | Maximum 9.788 across 154 functions, all strictly under 10 |
+| `go vet ./...` and server build | Passed |
+| Frontend TypeScript and production build | Passed |
+| Vitest unit/component tests | 70 passed |
+| Chrome UI tests against isolated Go/SQLite service | All 14 passed; final cancellation/group/drag changes rechecked with 3 passing journeys |
+| Preserved Python tests | 49 passed |
+| SQLite import | 2 projects, 17 tickets, 1 group, 14 runs and 42 events retained |
+
+Go tests exercise actual temporary Git worktrees, committed/staged/untracked/binary/Unicode diffs, source isolation, fake Codex/Claude executables, image payloads, secret redaction and test environment filtering, successful and failing Vitest/Pytest presets, output limits, timeout and process-group cancellation, retained partial diffs returned by cancellation, FIFO ordering, group stop gates, snapshots/history, SSE replay, local-origin/Host checks, bulk deletion/isolation/restore, SQLite import, legacy migration, restart recovery and seed idempotence. API routes are checked against every operation in the embedded OpenAPI contract. Paid provider authentication/model calls were not performed.
+
+The database import uses SQLite's online backup API, including committed WAL content. Source data is read-only; the Go database is separate. All existing JSON payloads and history were compared after import; one ticket's JSON serialisation differed while its field values were identical. Future edits are independent between backends. An existing target is not overwritten on subsequent imports.
+
+Go CRAP uses AST cyclomatic complexity and statement coverage in `backend-go/internal/studio`. The report excludes tests and command-line startup/measurement utilities, consistent with the existing Python app-only and frontend source gates. Gherkin scenarios are in `docs/backends.feature`. The Go OpenAPI snapshot is embedded from the Python contract, with a Go-specific title; HTTP handler registration is checked in tests. The old Python schema stays available independently.
+
+## Previous Python/frontend validation
+
 
 Project switcher: the breadcrumb opens an accessible dropdown of active projects, highlights and checks the selected project, opens the chosen board, and offers Manage projects. Unit and Chrome tests verify switching, current selection, Escape dismissal and unsaved-draft keep/discard behavior. The 3 relevant Chrome project journeys passed; the frontend build and CRAP gate passed.
 

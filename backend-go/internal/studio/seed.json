@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Build a welcoming project overview",
+    "prompt": "Create a project overview with a clear introduction, recent activity and a quick way to start a new task. Keep the design calm and accessible.",
+    "provider": "demo",
+    "images": [],
+    "workspace_id": "",
+    "permission": "read-only",
+    "allow_tests": false,
+    "group_id": "",
+    "id": "SW-001",
+    "project_id": "default",
+    "status": "todo",
+    "response": "",
+    "files": [],
+    "created_at": "2026-10-07T10:53:34.946930+00:00",
+    "queued_at": "",
+    "latest_run_id": ""
+  },
+  {
+    "title": "Bring the navigation to life",
+    "prompt": "Add a subtle transition to the navigation. Respect reduced-motion preferences and keep keyboard focus visible.",
+    "provider": "demo",
+    "images": [],
+    "workspace_id": "",
+    "permission": "read-only",
+    "allow_tests": false,
+    "group_id": "",
+    "id": "SW-002",
+    "project_id": "default",
+    "status": "todo",
+    "response": "",
+    "files": [],
+    "created_at": "2026-10-07T10:53:34.947026+00:00",
+    "queued_at": "",
+    "latest_run_id": ""
+  },
+  {
+    "title": "Add a contact section",
+    "prompt": "Create a contact section with email and social links. Use semantic markup and a responsive layout.",
+    "provider": "demo",
+    "images": [],
+    "workspace_id": "",
+    "permission": "read-only",
+    "allow_tests": false,
+    "group_id": "",
+    "id": "SW-003",
+    "project_id": "default",
+    "status": "done",
+    "response": "Simulated example: a contact section was prepared with semantic links and a responsive layout. These are illustrative diffs; no repository was changed.",
+    "files": [
+      {
+        "path": "src/components/Contact.vue",
+        "additions": 4,
+        "deletions": 1,
+        "diff": "--- a/src/components/Contact.vue\n+++ b/src/components/Contact.vue\n@@ -1,3 +1,6 @@\n <template>\n-  <div>Contact</div>\n+  <section aria-labelledby=\"contact-title\">\n+    <h2 id=\"contact-title\">Let\u2019s talk</h2>\n+    <a href=\"mailto:hello@example.com\">Email us</a>\n+  </section>\n </template>"
+      }
+    ],
+    "created_at": "2026-10-07T10:53:34.947038+00:00",
+    "queued_at": "",
+    "latest_run_id": ""
+  }
+]
